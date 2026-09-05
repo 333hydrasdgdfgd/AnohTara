@@ -1,0 +1,662 @@
+[
+  {
+    "name": "KRI Restaurant",
+    "address": "Silliman Avenue, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3095,
+      "lng": 123.3045
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["asian fusion", "lunch", "dinner"]
+  },
+  {
+    "name": "Why Not? Restaurant",
+    "address": "Rizal Boulevard, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3060,
+      "lng": 123.3077
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["international", "lunch", "dinner", "drinks"]
+  },
+  {
+    "name": "The Rollin' Pin",
+    "address": "San Jose St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3056,
+      "lng": 123.3032
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["pastry", "breakfast", "coffee"]
+  },
+  {
+    "name": "Cafe Mamia",
+    "address": "San Jose St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3050,
+      "lng": 123.3041
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["breakfast", "lunch", "coffee", "dessert"]
+  },
+  {
+    "name": "Mooon Cafe",
+    "address": "Silliman Avenue, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3101,
+      "lng": 123.3055
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["mexican", "lunch", "dinner"]
+  },
+  {
+    "name": "2 Story Kitchen",
+    "address": "Sta. Catalina St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3072,
+      "lng": 123.3068
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["korean", "coffee", "dessert", "snacks"]
+  },
+  {
+    "name": "Pasta King",
+    "address": "South Road, Calindagan, Dumaguete City",
+    "coordinates": {
+      "lat": 9.2995,
+      "lng": 123.3012
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["italian", "lunch", "dinner", "pizza"]
+  },
+  {
+    "name": "Tom N Toms Coffee",
+    "address": "Rizal Boulevard, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3081,
+      "lng": 123.3065
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["coffee", "pastry", "dessert"]
+  },
+  {
+    "name": "Panda Ice Cream Hauz",
+    "address": "Ma. Cristina St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3108,
+      "lng": 123.3021
+    },
+    "establishment_type": "dessert shop",
+    "food_categories": ["dessert", "ice cream", "snacks"]
+  },
+  {
+    "name": "Esturya",
+    "address": "Hibbard Avenue, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3142,
+      "lng": 123.3031
+    },
+    "establishment_type": "bar and restaurant",
+    "food_categories": ["pizza", "drinks", "dinner"]
+  },
+  {
+    "name": "Gracey's Pizza Dauin",
+    "address": "National Highway, Poblacion, Dauin",
+    "coordinates": {
+      "lat": 9.1925,
+      "lng": 123.2660
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["pizza", "lunch", "dinner"]
+  },
+  {
+    "name": "Bongo Bongo Divers Cafe",
+    "address": "Poblacion, Dauin",
+    "coordinates": {
+      "lat": 9.1901,
+      "lng": 123.2682
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["breakfast", "lunch", "coffee", "healthy"]
+  },
+  {
+    "name": "El Dorado Beach Resort Restaurant",
+    "address": "Lipayo, Dauin",
+    "coordinates": {
+      "lat": 9.1823,
+      "lng": 123.2615
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["international", "breakfast", "lunch", "dinner"]
+  },
+  {
+    "name": "Salaya Beach Houses Restaurant",
+    "address": "Lipayo, Dauin",
+    "coordinates": {
+      "lat": 9.1795,
+      "lng": 123.2598
+    },
+    "establishment_type": "fine dining",
+    "food_categories": ["fine dining", "international", "vegan options"]
+  },
+  {
+    "name": "Liquid Dive Resort Restaurant",
+    "address": "Bulak, Dauin",
+    "coordinates": {
+      "lat": 9.1721,
+      "lng": 123.2541
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["breakfast", "lunch", "dinner", "drinks"]
+  },
+  {
+    "name": "Cafe Filomena",
+    "address": "Bravo Hotel, Looc, Sibulan",
+    "coordinates": {
+      "lat": 9.3456,
+      "lng": 123.2984
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["filipino", "international", "lunch", "dinner"]
+  },
+  {
+    "name": "Jo's By The Sea",
+    "address": "National Highway, Sibulan",
+    "coordinates": {
+      "lat": 9.3512,
+      "lng": 123.2921
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["seafood", "filipino", "lunch", "dinner"]
+  },
+  {
+    "name": "Food Camp Sibulan",
+    "address": "National Highway, Poblacion, Sibulan",
+    "coordinates": {
+      "lat": 9.3585,
+      "lng": 123.2865
+    },
+    "establishment_type": "food park",
+    "food_categories": ["street food", "snacks", "dinner", "barbecue"]
+  },
+  {
+    "name": "Mel's Cafe",
+    "address": "Poblacion, Sibulan",
+    "coordinates": {
+      "lat": 9.3601,
+      "lng": 123.2855
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["coffee", "pastry", "breakfast"]
+  },
+  {
+    "name": "Watever Family KTV and Restaurant",
+    "address": "E.J. Blanco Drive, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3235,
+      "lng": 123.2991
+    },
+    "establishment_type": "bar and restaurant",
+    "food_categories": ["snacks", "dinner", "drinks"]
+  },
+  {
+    "name": "Meltin' Pot",
+    "address": "Rizal Boulevard, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3048,
+      "lng": 123.3085
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner", "filipino", "international"]
+  },
+  {
+    "name": "Buglas Isla Cafe",
+    "address": "Villa Amada, Hibbard Ave, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3172,
+      "lng": 123.3045
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["breakfast", "lunch", "filipino"]
+  },
+  {
+    "name": "Atmosphere Resorts & Spa Restaurant",
+    "address": "Maayong Tubig, Dauin",
+    "coordinates": {
+      "lat": 9.1554,
+      "lng": 123.2458
+    },
+    "establishment_type": "fine dining",
+    "food_categories": ["fine dining", "healthy", "international", "wine"]
+  },
+  {
+    "name": "Silver Reef Dive Resort Restaurant",
+    "address": "Poblacion, Dauin",
+    "coordinates": {
+      "lat": 9.1915,
+      "lng": 123.2671
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["breakfast", "lunch", "dinner", "seafood"]
+  },
+  {
+    "name": "Flamin' Grill",
+    "address": "National Highway, Agan-an, Sibulan",
+    "coordinates": {
+      "lat": 9.3401,
+      "lng": 123.2952
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["burgers", "lunch", "dinner", "american"]
+  },
+  {
+    "name": "Silliman Campus Cafe",
+    "address": "Hibbard Avenue, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3121,
+      "lng": 123.3039
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["pastry", "breakfast", "dessert"]
+  },
+  {
+    "name": "Sibulan Highway Eatery",
+    "address": "National Highway, Sibulan",
+    "coordinates": {
+      "lat": 9.3622,
+      "lng": 123.2847
+    },
+    "establishment_type": "fast food",
+    "food_categories": ["lunch", "dinner"]
+  },
+  {
+    "name": "Boulevard Seafood Restaurant",
+    "address": "Rizal Boulevard, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3068,
+      "lng": 123.3054
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner"]
+  },
+  {
+    "name": "Sans Rival Cakes & Pastries",
+    "address": "San Jose St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3054,
+      "lng": 123.3081
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["dessert", "pastry", "snack"]
+  },
+  {
+    "name": "Lantaw Native Restaurant",
+    "address": "Flores Avenue, Escaño Beach, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3175,
+      "lng": 123.3069
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner", "seafood"]
+  },
+  {
+    "name": "Gabby's Bistro",
+    "address": "E.J. Blanco Drive, Piapi, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3242,
+      "lng": 123.2981
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["breakfast", "lunch", "dinner", "comfort food"]
+  },
+  {
+    "name": "Jo's Chicken Inato",
+    "address": "Silliman Avenue, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3114,
+      "lng": 123.3039
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner", "barbecue"]
+  },
+  {
+    "name": "Hayahay Treehouse Bar and Viewdeck",
+    "address": "Flores Avenue, Piapi, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3171,
+      "lng": 123.3070
+    },
+    "establishment_type": "bar and restaurant",
+    "food_categories": ["dinner", "seafood", "drinks"]
+  },
+  {
+    "name": "Casablanca Restaurant",
+    "address": "Rizal Boulevard, corner Noblefranca St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3061,
+      "lng": 123.3075
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["fine dining", "dinner", "international"]
+  },
+  {
+    "name": "Neva's Pizza",
+    "address": "Hibbard Avenue, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3090,
+      "lng": 123.3033
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner", "pizza"]
+  },
+  {
+    "name": "Tierra Alta Residential Resort Restaurant",
+    "address": "Tierra Alta, Valencia",
+    "coordinates": {
+      "lat": 9.2789,
+      "lng": 123.2386
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner", "international"]
+  },
+  {
+    "name": "Finbar",
+    "address": "Poblacion, Dauin",
+    "coordinates": {
+      "lat": 9.1912,
+      "lng": 123.2678
+    },
+    "establishment_type": "bar and restaurant",
+    "food_categories": ["dinner", "drinks", "pizza"]
+  },
+  {
+    "name": "Adamo",
+    "address": "Tindalo St, Daro, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3102,
+      "lng": 123.3005
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["fine dining", "lunch", "dinner"]
+  },
+  {
+    "name": "Qyosko Cafe",
+    "address": "Sta. Rosa St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3135,
+      "lng": 123.3032
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["breakfast", "lunch", "coffee"]
+  },
+  {
+    "name": "Cafe Antonio",
+    "address": "San Juan St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3052,
+      "lng": 123.3039
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["coffee", "snack", "dessert"]
+  },
+  {
+    "name": "Mifune Japanese Restaurant",
+    "address": "Escaño Beach, Flores Avenue, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3168,
+      "lng": 123.3069
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner", "japanese"]
+  },
+  {
+    "name": "Lord Byron's Backribs",
+    "address": "E.J. Blanco Drive, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3195,
+      "lng": 123.3021
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner", "barbecue"]
+  },
+  {
+    "name": "The Cliffhouse",
+    "address": "Apolong, Valencia",
+    "coordinates": {
+      "lat": 9.2815,
+      "lng": 123.2201
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["coffee", "snack", "dessert"]
+  },
+  {
+    "name": "Bogo's Inasal",
+    "address": "National Highway, Bais City",
+    "coordinates": {
+      "lat": 9.5892,
+      "lng": 123.1215
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["lunch", "dinner", "barbecue"]
+  },
+  {
+    "name": "Sr. Pedro Lechon Manok Sibulan",
+    "address": "National Highway, Sibulan",
+    "coordinates": {
+      "lat": 9.3621,
+      "lng": 123.2852
+    },
+    "establishment_type": "fast food",
+    "food_categories": ["takeout", "lunch", "dinner"]
+  },
+  {
+    "name": "Mrs. Breadworth",
+    "address": "Paseo Perdices, Rizal Boulevard, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3059,
+      "lng": 123.3080
+    },
+    "establishment_type": "cafe and bakery",
+    "food_categories": ["matcha", "pastry", "coffee", "dessert"]
+  },
+  {
+    "name": "Yvan Cafe",
+    "address": "Hibbard Avenue, Piapi, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3181,
+      "lng": 123.3045
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["matcha", "frappe", "dessert", "coffee"]
+  },
+  {
+    "name": "Willows Rock",
+    "address": "Dumaguete City",
+    "coordinates": {
+      "lat": 9.3102,
+      "lng": 123.3031
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["matcha", "coffee", "pastry"]
+  },
+  {
+    "name": "Unmei",
+    "address": "Dumaguete City",
+    "coordinates": {
+      "lat": 9.3095,
+      "lng": 123.3040
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["matcha", "drinks", "japanese"]
+  },
+  {
+    "name": "Coffee Collective",
+    "address": "San Jose St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3051,
+      "lng": 123.3042
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["matcha", "specialty coffee", "pastry"]
+  },
+  {
+    "name": "Grounded Coffee House",
+    "address": "Meciano Road, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3025,
+      "lng": 123.2980
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["matcha", "coffee", "pastry", "breakfast"]
+  },
+  {
+    "name": "Cafe Orlina",
+    "address": "Dumaguete City",
+    "coordinates": {
+      "lat": 9.3088,
+      "lng": 123.3022
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["matcha", "coffee", "drinks"]
+  },
+  {
+    "name": "Kapeng Lokal",
+    "address": "Dumaguete City",
+    "coordinates": {
+      "lat": 9.3120,
+      "lng": 123.3015
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["matcha", "coffee", "drinks"]
+  },
+  {
+    "name": "Gong Cha",
+    "address": "Robinsons Place, Calindagan, Dumaguete City",
+    "coordinates": {
+      "lat": 9.2995,
+      "lng": 123.3005
+    },
+    "establishment_type": "milk tea shop",
+    "food_categories": ["matcha", "milk tea", "drinks"]
+  },
+  {
+    "name": "The Bean Connection",
+    "address": "Portal West, Silliman Avenue, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3110,
+      "lng": 123.3035
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "pastry", "dessert"]
+  },
+  {
+    "name": "Bo's Coffee",
+    "address": "Rizal Boulevard, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3065,
+      "lng": 123.3072
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "breakfast", "pastry"]
+  },
+  {
+    "name": "Chapters Cafe",
+    "address": "San Jose St, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3055,
+      "lng": 123.3040
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "dessert", "snacks"]
+  },
+  {
+    "name": "Cafe Alima",
+    "address": "E.J. Blanco Drive, Daro, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3190,
+      "lng": 123.3005
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "pastry", "brunch"]
+  },
+  {
+    "name": "The Nook Espresso Bar",
+    "address": "Escaño Beach, Piapi, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3180,
+      "lng": 123.3065
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["specialty coffee", "snack"]
+  },
+  {
+    "name": "Flock Cafe",
+    "address": "Hibbard Avenue, Bantayan, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3155,
+      "lng": 123.3030
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["specialty coffee", "pastry"]
+  },
+  {
+    "name": "Pick-Up Coffee",
+    "address": "Robinsons Place, Calindagan, Dumaguete City",
+    "coordinates": {
+      "lat": 9.2990,
+      "lng": 123.3000
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "drinks"]
+  },
+  {
+    "name": "Portside Coffee",
+    "address": "Sibulan Port Area, Sibulan",
+    "coordinates": {
+      "lat": 9.3620,
+      "lng": 123.2870
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "snacks", "breakfast"]
+  },
+  {
+    "name": "Dauin Dive Cafe",
+    "address": "Poblacion, Dauin",
+    "coordinates": {
+      "lat": 9.1905,
+      "lng": 123.2675
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "breakfast", "smoothies"]
+  },
+  {
+    "name": "U-Vina Cafe",
+    "address": "National Highway, Sibulan",
+    "coordinates": {
+      "lat": 9.3550,
+      "lng": 123.2905
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "dessert", "snacks"]
+  },
+  {
+    "name": "Matsya Cafe",
+    "address": "Dumaguete City",
+    "coordinates": {
+      "lat": 9.3085,
+      "lng": 123.3040
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["matcha", "coffee", "plant-based", "dessert"]
+  },
+  {
+    "name": "Cheesestick Country",
+    "address": "Escaño Road, Piapi, Dumaguete City",
+    "coordinates": {
+      "lat": 9.3175,
+      "lng": 123.3070
+    },
+    "establishment_type": "food stall",
+    "food_categories": ["snacks", "street food", "drinks", "dinner"]
+  }
+]

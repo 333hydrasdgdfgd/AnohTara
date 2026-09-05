@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AnohTara?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ SCREEN 1: GREETING ============ -->
+<div id="screen-greeting" class="screen active">
+  <div class="rays">
+    <svg viewBox="0 0 200 200" aria-hidden="true">
+      <g fill="none" stroke="#FFB238" stroke-width="1.5" opacity="0.35">
+        <circle cx="100" cy="100" r="60"/>
+        <circle cx="100" cy="100" r="80"/>
+        <circle cx="100" cy="100" r="98"/>
+      </g>
+    </svg>
+  </div>
+  <div class="greet-content">
+    <div class="greet-eyebrow">Gutom?</div>
+    <h1 class="headline display">AnohTara?</h1>
+    <p class="greet-sub">Kaon Kay Gamiton.</p>
+    <button class="btn btn-primary display" onclick="goToScreen('finder')">Tara!</button>
+  </div>
+</div>
+
+<!-- ============ SCREEN 2: FINDER ============ -->
+<div id="screen-finder" class="screen">
+  <div class="finder-top">
+    <button class="back-btn" onclick="goToScreen('greeting')" aria-label="Back">←</button>
+    <div>
+      <h2 class="finder-title">Asa mn?<span>pili na pri</span></h2>
+    </div>
+  </div>
+
+  <div class="card">
+    <label class="field-label">Establishment type</label>
+    <select id="filterType"></select>
+  </div>
+
+  <div class="card">
+    <label class="field-label">Food craving</label>
+    <div class="chips" id="filterCategories"></div>
+  </div>
+
+  <div class="card">
+    <label class="field-label">Max distance</label>
+    <div class="dist-row">
+      <input type="range" id="filterDistance" min="0.5" max="20" step="0.5" value="20">
+      <div class="dist-value" id="distValueLabel">20 km</div>
+    </div>
+    <div class="loc-status" id="locStatus">
+      <span class="loc-dot" id="locDot"></span>
+      <span id="locText">Location not set — distance filter is off</span>
+    </div>
+    <button class="link-btn" id="locBtn" style="margin-top:10px;">Use my location</button>
+  </div>
+
+  <div class="action-row">
+    <button class="btn btn-random" onclick="handleRandomize()">🎲 Bisag unsa</button>
+    <button class="btn btn-find" onclick="handleFind()">Search</button>
+  </div>
+
+  <div class="upload-row">
+    <button class="link-btn" id="uploadTrigger">Use my own JSON list instead</button>
+    <input type="file" id="fileInput" accept="application/json">
+  </div>
+
+  <div id="results"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
