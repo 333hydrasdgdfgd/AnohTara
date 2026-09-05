@@ -658,5 +658,925 @@
     },
     "establishment_type": "food stall",
     "food_categories": ["snacks", "street food", "drinks", "dinner"]
+  },
+  {
+    "name": "llaollao (Ilao Ilao)",
+    "address": "Rizal Boulevard, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3065,
+      "lng": 123.3089
+    },
+    "establishment_type": "dessert shop",
+    "food_categories": ["frozen yogurt", "desserts"]
+  },
+  {
+    "name": "Mila's Ice Cream Station",
+    "address": "Jose Romero Road, Bagacay, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.2935,
+      "lng": 123.2980
+    },
+    "establishment_type": "ice cream parlor",
+    "food_categories": ["ice cream", "milkshakes", "desserts"]
+  },
+  {
+    "name": "Tejero's Ice Cream",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3050,
+      "lng": 123.3050
+    },
+    "establishment_type": "ice cream parlor",
+    "food_categories": ["ice cream", "desserts"]
+  },
+  {
+    "name": "Vietnom",
+    "address": "E.J. Blanco Road, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3130,
+      "lng": 123.3065
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["vietnamese", "asian cuisine"]
+  },
+  {
+    "name": "Mr. Saigon",
+    "address": "Arts & Design Collective, 58 E.J. Blanco Road, Piapi, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3125,
+      "lng": 123.3060
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["vietnamese", "pho", "banh mi"]
+  },
+  {
+    "name": "3 Little Pigs Boneless Lechon",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3070,
+      "lng": 123.3040
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["filipino", "lechon", "local cuisine"]
+  },
+  {
+    "name": "Cafe Bobs",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3060,
+      "lng": 123.3060
+    },
+    "establishment_type": "café / bakery",
+    "food_categories": ["coffee", "pastries", "bakery"]
+  },
+  {
+    "name": "Potato Corner",
+    "address": "Robinsons Place Dumaguete / Lee Super Plaza, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3146,
+      "lng": 123.3040
+    },
+    "establishment_type": "kiosk / snack bar",
+    "food_categories": ["fries", "snacks"]
+  },
+  {
+    "name": "Cha Tu Chak",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3080,
+      "lng": 123.3050
+    },
+    "establishment_type": "milk tea shop",
+    "food_categories": ["milk tea", "beverages"]
+  },
+  {
+    "name": "Bugtaw",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3075,
+      "lng": 123.3055
+    },
+    "establishment_type": "café / restobar",
+    "food_categories": ["local cuisine", "coffee", "drinks"]
+  },
+  {
+    "name": "Starbucks",
+    "address": "Robinsons Place Dumaguete, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3146,
+      "lng": 123.3040
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "teas", "pastries"]
+  },
+  {
+    "name": "Chowking",
+    "address": "Gov. M. Perdices St / Robinsons Place, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3062,
+      "lng": 123.3052
+    },
+    "establishment_type": "fast food chain",
+    "food_categories": ["chinese-filipino", "fast food"]
+  },
+  {
+    "name": "Good Glaze",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3090,
+      "lng": 123.3045
+    },
+    "establishment_type": "bakery / donut shop",
+    "food_categories": ["donuts", "pastries", "desserts"]
+  },
+  {
+    "name": "Seven Monkeys",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3110,
+      "lng": 123.3070
+    },
+    "establishment_type": "café / restobar",
+    "food_categories": ["beverages", "comfort food"]
+  },
+  {
+    "name": "Jenima's Kebab",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3085,
+      "lng": 123.3060
+    },
+    "establishment_type": "restaurant / kiosk",
+    "food_categories": ["middle eastern", "kebabs"]
+  },
+  {
+    "name": "Bean's and Barrels",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3095,
+      "lng": 123.3075
+    },
+    "establishment_type": "café / bar",
+    "food_categories": ["coffee", "alcoholic beverages", "snacks"]
+  },
+  {
+    "name": "Bahia",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3040,
+      "lng": 123.3080
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["local cuisine", "seafood"]
+  },
+  {
+    "name": "Scoville",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3105,
+      "lng": 123.3050
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["spicy food", "comfort food"]
+  },
+  {
+    "name": "Mala King",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3115,
+      "lng": 123.3055
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["chinese", "mala", "hotpot"]
+  },
+  {
+    "name": "Bowls and Burg",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3120,
+      "lng": 123.3065
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["burgers", "rice bowls"]
+  },
+  {
+    "name": "Bazinga",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3070,
+      "lng": 123.3060
+    },
+    "establishment_type": "restaurant / hangout",
+    "food_categories": ["fast food", "comfort food"]
+  },
+  {
+    "name": "Black Paprica",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3135,
+      "lng": 123.3070
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["fusion", "international cuisine"]
+  },
+  {
+    "name": "Dunkin' Donuts",
+    "address": "Various Locations, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3068,
+      "lng": 123.3054
+    },
+    "establishment_type": "donut shop / café",
+    "food_categories": ["donuts", "coffee", "beverages"]
+  },
+  {
+    "name": "Oceana",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3035,
+      "lng": 123.3085
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["seafood", "filipino cuisine"]
+  },
+  {
+    "name": "Soban",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3140,
+      "lng": 123.3050
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["korean cuisine", "barbecue"]
+  },
+  {
+    "name": "Hemingway's",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3045,
+      "lng": 123.3088
+    },
+    "establishment_type": "restaurant / bar",
+    "food_categories": ["european cuisine", "drinks"]
+  },
+  {
+    "name": "Kasikas",
+    "address": "Santa Catalina / Escaño St, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3058,
+      "lng": 123.3062
+    },
+    "establishment_type": "kiosk / eatery",
+    "food_categories": ["local street food", "filipino"]
+  },
+  {
+    "name": "Cafe Racer Diner",
+    "address": "E.J. Blanco Drive corner Flores Ave, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3214,
+      "lng": 123.3118
+    },
+    "establishment_type": "diner / themed restaurant",
+    "food_categories": ["american", "burgers", "comfort food"]
+  },
+  {
+    "name": "Domus",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3072,
+      "lng": 123.3048
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["local and international cuisine"]
+  },
+  {
+    "name": "Popolo Pizzeria",
+    "address": "240 Dumaguete North Boulevard, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3250,
+      "lng": 123.3020
+    },
+    "establishment_type": "pizzeria / italian restaurant",
+    "food_categories": ["italian", "pizza", "gelato"]
+  },
+  {
+    "name": "Noelle's Brunch Bar",
+    "address": "240 Dumaguete North Boulevard (The Henry Resort), Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3252,
+      "lng": 123.3018
+    },
+    "establishment_type": "brunch bar / restaurant",
+    "food_categories": ["all-day breakfast", "brunch", "cafe fare"]
+  },
+  {
+    "name": "The Dining Room",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3060,
+      "lng": 123.3070
+    },
+    "establishment_type": "fine dining / restaurant",
+    "food_categories": ["continental", "fine dining"]
+  },
+  {
+    "name": "AM PM",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3082,
+      "lng": 123.3052
+    },
+    "establishment_type": "café / diner",
+    "food_categories": ["all-day breakfast", "coffee"]
+  },
+  {
+    "name": "Izakaya",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3102,
+      "lng": 123.3068
+    },
+    "establishment_type": "japanese pub / restaurant",
+    "food_categories": ["japanese", "sushi", "sake / drinks"]
+  },
+  {
+    "name": "Buttery",
+    "address": "Hibbard Ave, Bantayan, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3180,
+      "lng": 123.3050
+    },
+    "establishment_type": "bakery / café",
+    "food_categories": ["pastries", "breads", "coffee"]
+  },
+  {
+    "name": "Chooks to Go",
+    "address": "Various Locations, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3068,
+      "lng": 123.3054
+    },
+    "establishment_type": "takeout counter",
+    "food_categories": ["roasted chicken", "filipino fast food"]
+  },
+  {
+    "name": "Pearl Meat Shop & Restaurant",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3090,
+      "lng": 123.3062
+    },
+    "establishment_type": "restaurant & butchery",
+    "food_categories": ["steak", "grill", "filipino"]
+  },
+  {
+    "name": "Sakura",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3112,
+      "lng": 123.3048
+    },
+    "establishment_type": "japanese restaurant",
+    "food_categories": ["japanese", "sushi", "ramen"]
+  },
+  {
+    "name": "Botejyu",
+    "address": "Robinsons Place Dumaguete, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3146,
+      "lng": 123.3040
+    },
+    "establishment_type": "japanese restaurant",
+    "food_categories": ["japanese", "okonomiyaki", "tendon"]
+  },
+  {
+    "name": "The Barn",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3150,
+      "lng": 123.3080
+    },
+    "establishment_type": "restobar / restaurant",
+    "food_categories": ["grill", "drinks", "filipino cuisine"]
+  },
+  {
+    "name": "George's Steakhouse",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3160,
+      "lng": 123.3090
+    },
+    "establishment_type": "steakhouse",
+    "food_categories": ["steaks", "grill", "western cuisine"]
+  },
+  {
+    "name": "Lazy Cup",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3088,
+      "lng": 123.3058
+    },
+    "establishment_type": "milk tea / coffee shop",
+    "food_categories": ["milk tea", "coffee", "beverages"]
+  },
+  {
+    "name": "A Cafe",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3078,
+      "lng": 123.3042
+    },
+    "establishment_type": "café",
+    "food_categories": ["coffee", "pastries", "light meals"]
+  },
+  {
+    "name": "Si Senior",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3122,
+      "lng": 123.3072
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["mexican", "latin american", "roast chicken"]
+  },
+  {
+    "name": "Senior Juan",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3108,
+      "lng": 123.3058
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["filipino", "comfort food"]
+  },
+  {
+    "name": "Dizzy Owl",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3092,
+      "lng": 123.3065
+    },
+    "establishment_type": "café / bar",
+    "food_categories": ["coffee", "cocktails", "desserts"]
+  },
+  {
+    "name": "Curious Bean",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3118,
+      "lng": 123.3042
+    },
+    "establishment_type": "specialty coffee shop",
+    "food_categories": ["coffee", "brunch", "pastries"]
+  },
+  {
+    "name": "Alberto's Pizza",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3055,
+      "lng": 123.3035
+    },
+    "establishment_type": "pizzeria / fast food",
+    "food_categories": ["pizza", "fast food"]
+  },
+  {
+    "name": "Bugtaw",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3075,
+      "lng": 123.3055
+    },
+    "establishment_type": "café / restobar",
+    "food_categories": ["local cuisine", "coffee", "drinks"]
+  },
+  {
+    "name": "Pastry Dream",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3065,
+      "lng": 123.3050
+    },
+    "establishment_type": "bakery / cafe",
+    "food_categories": ["pastries", "breads", "desserts"]
+  },
+  {
+    "name": "Ichiraku",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3100,
+      "lng": 123.3060
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["japanese", "ramen", "asian cuisine"]
+  },
+  {
+    "name": "Roti Boss Curry House",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3090,
+      "lng": 123.3070
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["indian", "curry", "roti"]
+  },
+  {
+    "name": "Blue Elephant",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3050,
+      "lng": 123.3080
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["thai", "asian cuisine"]
+  },
+  {
+    "name": "Chobi Chobi",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3145,
+      "lng": 123.3040
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["seafood", "filipino", "pork ribs"]
+  },
+  {
+    "name": "Yellow Cab",
+    "address": "Robinsons Place Dumaguete, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3146,
+      "lng": 123.3040
+    },
+    "establishment_type": "pizzeria",
+    "food_categories": ["pizza", "pasta", "fast food"]
+  },
+  {
+    "name": "Kawa",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3080,
+      "lng": 123.3050
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["filipino", "local cuisine"]
+  },
+  {
+    "name": "K Bob",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3072,
+      "lng": 123.3058
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["korean", "barbecue"]
+  },
+  {
+    "name": "Oncho",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3085,
+      "lng": 123.3062
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["asian", "comfort food"]
+  },
+  {
+    "name": "Tiffles",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3060,
+      "lng": 123.3055
+    },
+    "establishment_type": "cafe / bakery",
+    "food_categories": ["pastries", "coffee"]
+  },
+  {
+    "name": "Daily Grind",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3068,
+      "lng": 123.3065
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "brunch", "pastries"]
+  },
+  {
+    "name": "Fibber Magee's",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3048,
+      "lng": 123.3082
+    },
+    "establishment_type": "pub / bar",
+    "food_categories": ["drinks", "western food", "pub food"]
+  },
+  {
+    "name": "Skewers",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3078,
+      "lng": 123.3052
+    },
+    "establishment_type": "grill / eatery",
+    "food_categories": ["barbecue", "skewers", "street food"]
+  },
+  {
+    "name": "The Green Chef",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3095,
+      "lng": 123.3048
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["healthy food", "salads", "vegetarian"]
+  },
+  {
+    "name": "Ribshack",
+    "address": "Robinsons Place Dumaguete, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3146,
+      "lng": 123.3040
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["grilled ribs", "filipino", "barbecue"]
+  },
+  {
+    "name": "Mang Inasal",
+    "address": "Gov. M. Perdices St / Robinsons Place, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3062,
+      "lng": 123.3052
+    },
+    "establishment_type": "fast food chain",
+    "food_categories": ["chicken charcoal grill", "filipino", "fast food"]
+  },
+  {
+    "name": "Paseo Grill & Resto",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3052,
+      "lng": 123.3085
+    },
+    "establishment_type": "restaurant / grill",
+    "food_categories": ["filipino", "grill", "drinks"]
+  },
+  {
+    "name": "Dong's Kitchen",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3102,
+      "lng": 123.3055
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["asian", "comfort food"]
+  },
+  {
+    "name": "Spice Eat",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3088,
+      "lng": 123.3060
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["spicy food", "asian cuisine"]
+  },
+  {
+    "name": "Chia Vegetarian Eatery",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3075,
+      "lng": 123.3045
+    },
+    "establishment_type": "eatery",
+    "food_categories": ["vegetarian", "vegan", "healthy food"]
+  },
+  {
+    "name": "Blu Cup Cafe",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3080,
+      "lng": 123.3068
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["coffee", "pastries", "beverages"]
+  },
+  {
+    "name": "Sodan Korean Restaurant",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3110,
+      "lng": 123.3050
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["korean", "barbecue", "stews"]
+  },
+  {
+    "name": "Kusina Ni Luchi",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3065,
+      "lng": 123.3072
+    },
+    "establishment_type": "eatery / carinderia",
+    "food_categories": ["filipino", "home-cooked meals"]
+  },
+  {
+    "name": "Project Banh",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3120,
+      "lng": 123.3060
+    },
+    "establishment_type": "cafe / kiosk",
+    "food_categories": ["banh mi", "vietnamese", "sandwiches"]
+  },
+  {
+    "name": "Casablanca Restaurant",
+    "address": "Rizal Boulevard, Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3055,
+      "lng": 123.3086
+    },
+    "establishment_type": "restaurant / bar",
+    "food_categories": ["european", "continental", "wine"]
+  },
+  {
+    "name": "Adorno y Cafe",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3072,
+      "lng": 123.3050
+    },
+    "establishment_type": "cafe",
+    "food_categories": ["coffee", "pastries", "brunch"]
+  },
+  {
+    "name": "Rays Restaurant",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3082,
+      "lng": 123.3058
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["filipino", "comfort food"]
+  },
+  {
+    "name": "Lolo Saysay's Grill House",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3068,
+      "lng": 123.3048
+    },
+    "establishment_type": "grill house",
+    "food_categories": ["filipino", "barbecue", "grilled items"]
+  },
+  {
+    "name": "Panie's Fast Food",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3058,
+      "lng": 123.3052
+    },
+    "establishment_type": "fast food",
+    "food_categories": ["filipino", "budget meals"]
+  },
+  {
+    "name": "Adobo Go",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3070,
+      "lng": 123.3055
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["adobo", "filipino cuisine"]
+  },
+  {
+    "name": "BSGF Restaurante",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3090,
+      "lng": 123.3075
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["local cuisine", "comfort food"]
+  },
+  {
+    "name": "Tiiny Supershop",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3062,
+      "lng": 123.3062
+    },
+    "establishment_type": "convenience / snack shop",
+    "food_categories": ["snacks", "beverages"]
+  },
+  {
+    "name": "Chantilly Cake House",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3078,
+      "lng": 123.3060
+    },
+    "establishment_type": "bakery",
+    "food_categories": ["cakes", "pastries", "desserts"]
+  },
+  {
+    "name": "Brewdways Coffee",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3085,
+      "lng": 123.3052
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "beverages", "pastries"]
+  },
+  {
+    "name": "Beyond Plants",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3100,
+      "lng": 123.3042
+    },
+    "establishment_type": "cafe / restaurant",
+    "food_categories": ["plant-based", "vegan", "healthy food"]
+  },
+  {
+    "name": "HI LEMON",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3072,
+      "lng": 123.3050
+    },
+    "establishment_type": "drink stall",
+    "food_categories": ["lemonade", "refreshments"]
+  },
+  {
+    "name": "Lugaw ni Bai",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3065,
+      "lng": 123.3058
+    },
+    "establishment_type": "eatery",
+    "food_categories": ["lugaw", "porridge", "filipino comfort food"]
+  },
+  {
+    "name": "Audrey's Ilocos Empanada",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3055,
+      "lng": 123.3060
+    },
+    "establishment_type": "food stall / kiosk",
+    "food_categories": ["empanada", "ilocano food", "snacks"]
+  },
+  {
+    "name": "Cherie's Cheesecake House",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3080,
+      "lng": 123.3070
+    },
+    "establishment_type": "bakery / cafe",
+    "food_categories": ["cheesecake", "desserts", "coffee"]
+  },
+  {
+    "name": "Kohi",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3070,
+      "lng": 123.3050
+    },
+    "establishment_type": "coffee shop",
+    "food_categories": ["coffee", "beverages"]
+  },
+  {
+    "name": "The Rollin' Pin",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3075,
+      "lng": 123.3065
+    },
+    "establishment_type": "bakery / cafe",
+    "food_categories": ["pastries", "breads", "coffee"]
+  },
+  {
+    "name": "Hawker Chan",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3146,
+      "lng": 123.3040
+    },
+    "establishment_type": "restaurant",
+    "food_categories": ["singaporean", "chicken rice", "asian cuisine"]
+  },
+  {
+    "name": "Hawker's B",
+    "address": "Dumaguete City, Negros Oriental",
+    "coordinates": {
+      "lat": 9.3090,
+      "lng": 123.3055
+    },
+    "establishment_type": "restaurant / stall",
+    "food_categories": ["hawker food", "asian cuisine"]
   }
 ]
