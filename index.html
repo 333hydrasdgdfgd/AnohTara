@@ -46,7 +46,14 @@
 
   <div class="card">
     <label class="field-label">Food craving</label>
-    <div class="chips" id="filterCategories"></div>
+    <div class="selected-summary" id="selectedCategories"></div>
+    <div class="dropdown" id="categoryDropdown">
+    <button type="button" class="dropdown-toggle" id="categoryToggle">
+      <span id="categoryToggleLabel">Any category</span>
+      <span class="chevron">▾</span>
+     </button>
+     <div class="dropdown-panel chips" id="filterCategories"></div>
+    </div>
   </div>
 
   <div class="card">

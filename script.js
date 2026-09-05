@@ -30,10 +30,54 @@ function buildFilters(){
   const cats = [...new Set(PLACES.flatMap(p => p.food_categories))];
   catWrap.innerHTML = cats.map(c => `<button type="button" class="chip" data-cat="${c}">${capitalize(c)}</button>`).join('');
   catWrap.querySelectorAll('.chip').forEach(chip => {
-    chip.addEventListener('click', () => chip.classList.toggle('selected'));
+    chip.addEventListener('click', () => {
+      chip.classList.toggle('selected');
+      updateCategorySummary();
+    });
   });
+  updateCategorySummary();
 }
 function capitalize(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+
+// ---------- Category dropdown open/close ----------
+const categoryDropdown = document.getElementById('categoryDropdown');
+const categoryToggle = document.getElementById('categoryToggle');
+categoryToggle.addEventListener('click', (e) => {
+  e.stopPropagation();
+  categoryDropdown.classList.toggle('open');
+});
+document.addEventListener('click', (e) => {
+  if(!categoryDropdown.contains(e.target)){
+    categoryDropdown.classList.remove('open');
+  }
+});
+
+// ---------- Selected category summary (pills above the dropdown) ----------
+function updateCategorySummary(){
+  const selected = [...document.querySelectorAll('#filterCategories .chip.selected')].map(c => c.dataset.cat);
+  const summaryEl = document.getElementById('selectedCategories');
+  const labelEl = document.getElementById('categoryToggleLabel');
+
+  summaryEl.innerHTML = selected.map(cat => `
+    <span class="selected-pill">
+      ${capitalize(cat)}
+      <button type="button" class="remove-pill" data-cat="${cat}" aria-label="Remove ${cat}">✕</button>
+    </span>`).join('');
+
+  summaryEl.querySelectorAll('.remove-pill').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const cat = btn.dataset.cat;
+      const chip = document.querySelector(`#filterCategories .chip[data-cat="${cat}"]`);
+      if(chip) chip.classList.remove('selected');
+      updateCategorySummary();
+    });
+  });
+
+  labelEl.textContent = selected.length === 0
+    ? 'Any category'
+    : `${selected.length} selected`;
+}
 
 // ---------- Distance slider ----------
 const distSlider = document.getElementById('filterDistance');
@@ -76,7 +120,7 @@ function distanceKm(lat1, lng1, lat2, lng2){
 // ---------- Filtering ----------
 function getFiltered(){
   const type = document.getElementById('filterType').value;
-  const selectedCats = [...document.querySelectorAll('.chip.selected')].map(c => c.dataset.cat);
+  const selectedCats = [...document.querySelectorAll('#filterCategories .chip.selected')].map(c => c.dataset.cat);
   const maxDist = parseFloat(distSlider.value);
   const useDistance = USER_LAT !== null && USER_LNG !== null;
 
@@ -96,8 +140,13 @@ function getFiltered(){
 
 function placeCardHTML(p){
   const dist = p._distance !== null ? `<div class="place-distance">${p._distance.toFixed(1)} km away</div>` : '';
+  const photo = p.photo
+    ? `<img class="place-photo" src="${p.photo}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+       <div class="place-photo-fallback" style="display:none;">📍</div>`
+    : '';
   return `
     <div class="place-card">
+      ${photo}
       <div class="place-name">${p.name}</div>
       <div class="place-meta">${p.address} · ${capitalize(p.establishment_type)}</div>
       ${dist}

@@ -172,7 +172,74 @@ select{
   border-color: var(--papaya);
   color: var(--deep);
 }
+.dropdown{ position:relative; }
+.dropdown-toggle{
+  width:100%;
+  background: var(--deep);
+  color: var(--cream);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:12px 14px;
+  font-size:15px;
+  font-weight:600;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  text-align:left;
+}
+.chevron{
+  color: var(--muted);
+  font-size:12px;
+  transition: transform 0.15s ease;
+  margin-left:10px;
+}
+.dropdown.open .chevron{ transform: rotate(180deg); }
+.dropdown-panel{
+  display:none;
+  position:absolute;
+  top: calc(100% + 8px);
+  left:0;
+  right:0;
+  background: var(--panel-2);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:12px;
+  max-height:230px;
+  overflow-y:auto;
+  z-index:20;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.28);
+}
+.dropdown.open .dropdown-panel{ display:flex; }
 
+.selected-summary{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  margin-bottom:10px;
+}
+.selected-summary:empty{ display:none; }
+.selected-pill{
+  background: var(--papaya);
+  color: var(--deep);
+  font-size:12px;
+  font-weight:700;
+  padding:6px 8px 6px 13px;
+  border-radius:999px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+.selected-pill .remove-pill{
+  background:none;
+  border:none;
+  color: var(--deep);
+  font-weight:800;
+  font-size:13px;
+  line-height:1;
+  cursor:pointer;
+  padding:2px;
+}
 .dist-row{ display:flex; align-items:center; gap:14px; }
 input[type="range"]{
   flex:1;
